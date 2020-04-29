@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaclient02" />
+        <module name="RESTTemplate" />
+        <module name="feign" />
+        <module name="gateway" />
+        <module name="eureka" />
+        <module name="ribbon" />
+        <module name="consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RESTTemplate" options="-parameters" />
+      <module name="Spring _Coud01" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eurekaclient" options="-parameters" />
+      <module name="eurekaclient02" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+    </option>
+  </component>
+</project>

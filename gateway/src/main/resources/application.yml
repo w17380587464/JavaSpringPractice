@@ -1,0 +1,17 @@
+server:
+  port: 8030
+
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#为web请求提供统一入口
+zuul:
+  routes:
+    provider: /p/**
+
+

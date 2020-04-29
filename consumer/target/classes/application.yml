@@ -1,0 +1,15 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: consumer
+#注册到服务中心,要使其成为Consumer还要调用其他Provider接口
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+

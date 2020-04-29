@@ -1,0 +1,18 @@
+server:
+  port: 8050
+
+spring:
+  application:
+    name: figen
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+#是否开启熔断机制
+feign:
+  hystrix:
+    enabled: true
