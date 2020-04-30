@@ -2,17 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaclient02" />
-        <module name="RESTTemplate" />
-        <module name="feign" />
+        <module name="hystrix" />
         <module name="gateway" />
+        <module name="RESTTemplate" />
         <module name="eureka" />
+        <module name="feign" />
+        <module name="nativeconfigclient" />
         <module name="ribbon" />
+        <module name="nativeConfigServer" />
         <module name="consumer" />
+        <module name="eurekaclient02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +33,9 @@
       <module name="eurekaclient02" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="nativeConfigServer" options="-parameters" />
+      <module name="nativeconfigclient" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>
   </component>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev
+    #注意这里必须与nativeConfigServer的shared/condigclient-dev.yml 名称对应
+  cloud:
+    config:
+      uri: http://localhost:8762
+      fail-fast: true #客户端优先判断是否正常
+
+
+

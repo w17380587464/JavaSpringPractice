@@ -16,6 +16,9 @@
         <module>gateway</module>
         <module>ribbon</module>
         <module>feign</module>
+        <module>hystrix</module>
+        <module>nativeConfigServer</module>
+        <module>nativeconfigclient</module>
     </modules>
 
     <parent>
